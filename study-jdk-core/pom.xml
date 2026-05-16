@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.nopr</groupId>
+        <artifactId>custom-study</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>study-jdk-core</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>study-overview</module>
+        <module>study-generics</module>
+        <module>study-collection</module>
+        <module>study-concurrent</module>
+        <module>study-jvm</module>
+        <module>study-nio</module>
+        <module>study-reflect</module>
+        <module>study-design-patterns</module>
+    </modules>
+</project>
