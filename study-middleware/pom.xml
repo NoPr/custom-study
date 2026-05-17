@@ -13,7 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>study-redis</module>
-        <module>study-mq</module>
+        <module>rocketmq</module>
+        <module>kafka</module>
         <module>study-netty</module>
         <module>study-websocket</module>
     </modules>
